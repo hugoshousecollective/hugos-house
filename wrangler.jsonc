@@ -1,9 +1,14 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hugos-house",
-  "main": "worker.js",
-  "compatibility_date": "2025-12-01",
+  "compatibility_date": "2026-06-15",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
-    "directory": "public",
-    "binding": "ASSETS"
-  }
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
