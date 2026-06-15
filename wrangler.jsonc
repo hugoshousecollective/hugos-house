@@ -1,0 +1,9 @@
+{
+  "name": "hugos-house",
+  "main": "worker.js",
+  "compatibility_date": "2025-12-01",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  }
+}
